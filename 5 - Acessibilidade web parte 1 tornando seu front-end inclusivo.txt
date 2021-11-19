@@ -1,0 +1,44 @@
+https://cursos.alura.com.br/formacao-front-end
+https://cursos.alura.com.br/course/acessibilidade-web-front-end
+
+No Visual Code Studio:
+Open the Extensions view (Ctrl+Shift+X)
+extensão Live Preview
+
+O Facebook desenvolveu uma ferramenta denominada Detectron que reconhece alguns elementos em imagens
+
+Veja uma lista de outros atalhos do NVDA aqui
+https://webaim.org/resources/shortcuts/nvda
+
+
+
+1 - HTML E OS LEITORES DE TELA 
+Uso do leitor de tela:
+	Que pessoas cegas ou com baixa visão podem contar com o auxílio de um software que lê o conteúdo exibido na tela.
+Usando o NVDA
+Semântica no HTML:
+	Tomar cuidado com a marcação de conteúdo quando estamos utilizando elementos HTML5.
+	Evitar mais de um <H1> na página
+O melhor caminho para deixar nosso projeto inclusivo não é apenas seguir regras e guidelines, mas testá-las
+
+
+2 - ATRIBUTOS LANG E ALT
+alt nas imagens que possuem função de conteúdo;
+escrever o alt de maneira descritiva, evitando redundâncias;
+configurar o idioma principal do documento com o atributo lang;
+colocar o elemento <title> em SVGs que forem inline (código direto no HTML).
+
+3 - CSS INTERFERE NO LEITOR DE TELA? LISTAS E DISPLAY: NONE
+Além de esconderem visualmente, algumas declarações escondem o conteúdo do leitor de tela
+	display: none
+	visibility: hidden
+
+4 - UM POUCO SOBRE ROLES E ARIAS
+Com a WAI ARIA temos a possibilidade de dar mais poder ao HTML.
+A principal função do atributo role é Mudar a semântica de um elemento.
+	Uma <div> poderia virar um <button>. Apesar disso, como já temos um elemento para botões o mais recomendado seria usar o elemento próprio para a situação.
+
+5 - FORMULÁRIO ACESSÍVEL
+Antigamente fazíamos via JavaScript, hoje com o HTML5 podemos usar o atributo placeholder
+	O usuário ao sair do campo depois de preencher algo, quando volta, precisa lembrar do que se tratava o campo
+Sempre devemos usar devidamente uma <label> para cada campo em um formulário. Lembrando de atrelá-los com os atributos for e id
